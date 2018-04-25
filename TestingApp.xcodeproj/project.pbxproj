@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DB70F13D2090C183004255D7 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70F13C2090C183004255D7 /* NetworkHelper.swift */; };
+		DB70F13F2090D21C004255D7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70F13E2090D21C004255D7 /* MainView.swift */; };
+		DB70F1412090D269004255D7 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70F1402090D269004255D7 /* CustomTableViewCell.swift */; };
+		DB70F1432090D68D004255D7 /* ImageAPIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70F1422090D68D004255D7 /* ImageAPIHelper.swift */; };
 		DBC186C4208F74FF00792F3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC186C3208F74FF00792F3C /* AppDelegate.swift */; };
 		DBC186C6208F74FF00792F3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC186C5208F74FF00792F3C /* ViewController.swift */; };
 		DBC186C9208F74FF00792F3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC186C7208F74FF00792F3C /* Main.storyboard */; };
@@ -31,6 +34,9 @@
 
 /* Begin PBXFileReference section */
 		DB70F13C2090C183004255D7 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		DB70F13E2090D21C004255D7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DB70F1402090D269004255D7 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		DB70F1422090D68D004255D7 /* ImageAPIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAPIHelper.swift; sourceTree = "<group>"; };
 		DBC186C0208F74FF00792F3C /* TestingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC186C3208F74FF00792F3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBC186C5208F74FF00792F3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,8 +93,11 @@
 			children = (
 				DBC186C3208F74FF00792F3C /* AppDelegate.swift */,
 				DBC186C5208F74FF00792F3C /* ViewController.swift */,
+				DB70F13E2090D21C004255D7 /* MainView.swift */,
+				DB70F1402090D269004255D7 /* CustomTableViewCell.swift */,
 				DBC186E5208F76EB00792F3C /* Movie.swift */,
 				DB70F13C2090C183004255D7 /* NetworkHelper.swift */,
+				DB70F1422090D68D004255D7 /* ImageAPIHelper.swift */,
 				DBC186E3208F751300792F3C /* MovieAPI.swift */,
 				DBC186C7208F74FF00792F3C /* Main.storyboard */,
 				DBC186CA208F750000792F3C /* Assets.xcassets */,
@@ -210,7 +219,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBC186E4208F751300792F3C /* MovieAPI.swift in Sources */,
+				DB70F13F2090D21C004255D7 /* MainView.swift in Sources */,
 				DBC186C6208F74FF00792F3C /* ViewController.swift in Sources */,
+				DB70F1412090D269004255D7 /* CustomTableViewCell.swift in Sources */,
+				DB70F1432090D68D004255D7 /* ImageAPIHelper.swift in Sources */,
 				DB70F13D2090C183004255D7 /* NetworkHelper.swift in Sources */,
 				DBC186E6208F76EB00792F3C /* Movie.swift in Sources */,
 				DBC186C4208F74FF00792F3C /* AppDelegate.swift in Sources */,

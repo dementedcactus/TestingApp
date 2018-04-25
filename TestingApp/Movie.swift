@@ -16,7 +16,7 @@ struct Movie: Codable {
     let trackName: String
     let artistName: String
     let kind: String
-    let artworkUrl100: String
+    let artworkUrl100: String?
     let contentAdvisoryRating: String
     let longDescription: String?
 }

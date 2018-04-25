@@ -8,13 +8,14 @@
 
 import Foundation
 
-enum AppError: Error {
+public enum AppError: Error {
     case badURL(url: String)
     case badImageURL(url: String)
     case badData
     case badResponseCode(code: Int)
     case cannotParseJSON(rawError: Error)
     case noInternet
+    case notAnImage
     case other(rawError: Error)
 }
 
