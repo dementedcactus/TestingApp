@@ -49,7 +49,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let aMovie = movieData[indexPath.row]
         let cell = mainView.tableView.dequeueReusableCell(withIdentifier: "Movie Cell", for: indexPath) as! CustomTableViewCell
         
-        cell.movieLabel.text = aMovie.artistName
+        cell.movieLabel.text = "\(aMovie.trackName)\n\(aMovie.longDescription ?? "")"
         cell.movieImageView.image = nil
         
         guard let imageUrlStr = aMovie.artworkUrl100 else {

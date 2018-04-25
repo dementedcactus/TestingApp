@@ -26,6 +26,7 @@ class CustomTableViewCell: UITableViewCell {
         lb.text = "Name"
         let font = UIFont(name: "Avenir-Heavy", size: 18)!
         lb.font = font
+        lb.numberOfLines = 0
         return lb
     }()
     
@@ -59,6 +60,7 @@ class CustomTableViewCell: UITableViewCell {
         movieLabel.translatesAutoresizingMaskIntoConstraints = false
         movieLabel.topAnchor.constraint(equalTo: self.topAnchor, constant: 5).isActive = true
         movieLabel.leadingAnchor.constraint(equalTo: movieImageView.trailingAnchor, constant: 5).isActive = true
-        movieLabel.widthAnchor.constraint(equalTo: self.widthAnchor, multiplier: 0.5).isActive = true
+        movieLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -5).isActive = true
+        movieLabel.bottomAnchor.constraint(lessThanOrEqualTo: self.bottomAnchor, constant: -5).isActive = true
     }
 }
