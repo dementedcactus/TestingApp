@@ -16,7 +16,6 @@
 		DBC186C9208F74FF00792F3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC186C7208F74FF00792F3C /* Main.storyboard */; };
 		DBC186CB208F750000792F3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC186CA208F750000792F3C /* Assets.xcassets */; };
 		DBC186CE208F750000792F3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC186CC208F750000792F3C /* LaunchScreen.storyboard */; };
-		DBC186D9208F750100792F3C /* TestingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC186D8208F750100792F3C /* TestingAppTests.swift */; };
 		DBC186E4208F751300792F3C /* MovieAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC186E3208F751300792F3C /* MovieAPI.swift */; };
 		DBC186E6208F76EB00792F3C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC186E5208F76EB00792F3C /* Movie.swift */; };
 		DBC186E8208F77E500792F3C /* MovieAPITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC186E7208F77E500792F3C /* MovieAPITest.swift */; };
@@ -45,7 +44,6 @@
 		DBC186CD208F750000792F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBC186CF208F750000792F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBC186D4208F750100792F3C /* TestingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBC186D8208F750100792F3C /* TestingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAppTests.swift; sourceTree = "<group>"; };
 		DBC186DA208F750100792F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBC186E3208F751300792F3C /* MovieAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAPI.swift; sourceTree = "<group>"; };
 		DBC186E5208F76EB00792F3C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
@@ -111,7 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				DBC186E7208F77E500792F3C /* MovieAPITest.swift */,
-				DBC186D8208F750100792F3C /* TestingAppTests.swift */,
 				DBC186DA208F750100792F3C /* Info.plist */,
 			);
 			path = TestingAppTests;
@@ -233,7 +230,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBC186D9208F750100792F3C /* TestingAppTests.swift in Sources */,
 				DBC186E8208F77E500792F3C /* MovieAPITest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
