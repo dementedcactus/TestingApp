@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB70F13D2090C183004255D7 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70F13C2090C183004255D7 /* NetworkHelper.swift */; };
 		DBC186C4208F74FF00792F3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC186C3208F74FF00792F3C /* AppDelegate.swift */; };
 		DBC186C6208F74FF00792F3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC186C5208F74FF00792F3C /* ViewController.swift */; };
 		DBC186C9208F74FF00792F3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC186C7208F74FF00792F3C /* Main.storyboard */; };
 		DBC186CB208F750000792F3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC186CA208F750000792F3C /* Assets.xcassets */; };
 		DBC186CE208F750000792F3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC186CC208F750000792F3C /* LaunchScreen.storyboard */; };
 		DBC186D9208F750100792F3C /* TestingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC186D8208F750100792F3C /* TestingAppTests.swift */; };
+		DBC186E4208F751300792F3C /* MovieAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC186E3208F751300792F3C /* MovieAPI.swift */; };
+		DBC186E6208F76EB00792F3C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC186E5208F76EB00792F3C /* Movie.swift */; };
+		DBC186E8208F77E500792F3C /* MovieAPITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC186E7208F77E500792F3C /* MovieAPITest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB70F13C2090C183004255D7 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		DBC186C0208F74FF00792F3C /* TestingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC186C3208F74FF00792F3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBC186C5208F74FF00792F3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		DBC186D4208F750100792F3C /* TestingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC186D8208F750100792F3C /* TestingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAppTests.swift; sourceTree = "<group>"; };
 		DBC186DA208F750100792F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC186E3208F751300792F3C /* MovieAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAPI.swift; sourceTree = "<group>"; };
+		DBC186E5208F76EB00792F3C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		DBC186E7208F77E500792F3C /* MovieAPITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAPITest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,9 @@
 			children = (
 				DBC186C3208F74FF00792F3C /* AppDelegate.swift */,
 				DBC186C5208F74FF00792F3C /* ViewController.swift */,
+				DBC186E5208F76EB00792F3C /* Movie.swift */,
+				DB70F13C2090C183004255D7 /* NetworkHelper.swift */,
+				DBC186E3208F751300792F3C /* MovieAPI.swift */,
 				DBC186C7208F74FF00792F3C /* Main.storyboard */,
 				DBC186CA208F750000792F3C /* Assets.xcassets */,
 				DBC186CC208F750000792F3C /* LaunchScreen.storyboard */,
@@ -90,6 +101,7 @@
 		DBC186D7208F750100792F3C /* TestingAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				DBC186E7208F77E500792F3C /* MovieAPITest.swift */,
 				DBC186D8208F750100792F3C /* TestingAppTests.swift */,
 				DBC186DA208F750100792F3C /* Info.plist */,
 			);
@@ -197,7 +209,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC186E4208F751300792F3C /* MovieAPI.swift in Sources */,
 				DBC186C6208F74FF00792F3C /* ViewController.swift in Sources */,
+				DB70F13D2090C183004255D7 /* NetworkHelper.swift in Sources */,
+				DBC186E6208F76EB00792F3C /* Movie.swift in Sources */,
 				DBC186C4208F74FF00792F3C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBC186D9208F750100792F3C /* TestingAppTests.swift in Sources */,
+				DBC186E8208F77E500792F3C /* MovieAPITest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
